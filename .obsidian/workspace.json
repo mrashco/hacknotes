@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/templates/default.md",
+                "file": "content/posts/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/templates/default.md",
+                "file": "content/posts/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/templates/default.md",
+                "file": "content/posts/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/templates/default.md"
+                "file": "content/posts/Untitled.md"
               }
             }
           }
@@ -148,9 +148,20 @@
   },
   "active": "1801f3412828f5e1",
   "lastOpenFiles": [
+    "themes/blowfish/archetypes/external.md",
+    "themes/blowfish/archetypes/default.md",
+    "themes/blowfish/archetypes",
+    "content/templates/default.md",
+    "assets/profile.jfif",
+    "assets/profile.jfif.crdownload",
+    "assets/background.jpg",
+    "assets",
+    "assetes/background.jpg",
+    "background.jpg",
+    "background.jpg.crdownload",
+    "README.md",
     "content/posts/welcome.md",
     "content/posts/Untitled.md",
-    "content/templates/default.md",
     "config/_default/taxonomies.toml",
     "content/posts/title.md",
     "content/posts/oh brother.md",
@@ -158,11 +169,6 @@
     "public/posts/welcome/index.html",
     "public/posts/page/1",
     "public/posts/welcome",
-    "public/posts/page",
-    "public/posts/index.html",
-    "public/posts",
-    "public/authors/mrashco/page/1/index.html",
-    "public/authors/mrashco/page/1",
     "Untitled.md",
     "posts/welcome.md",
     "public/favicon-32x32.png",
@@ -174,9 +180,6 @@
     "templates/default.md",
     "themes/blowfish/static/favicon-32x32.png",
     "themes/blowfish/static/favicon-16x16.png",
-    "themes/blowfish/static/apple-touch-icon.png",
-    "themes/blowfish/static/android-chrome-512x512.png",
-    "themes/blowfish/static/android-chrome-192x192.png",
     "themes/blowfish/exampleSite/content/users/weaxsey.org/index.zh-cn.md",
     "themes/blowfish/exampleSite/content/users/weaxsey.org/index.md",
     "themes/blowfish/exampleSite/content/users/weaxsey.org/index.ja.md",
@@ -190,9 +193,6 @@
     "themes/blowfish/exampleSite/content/users/vividscc.com/index.ja.md",
     "themes/blowfish/exampleSite/content/users/vividscc.com/index.it.md",
     "themes/blowfish/exampleSite/content/users/v-y-s.com/index.zh-cn.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.ja.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.it.md",
-    "themes/blowfish/exampleSite/content/users/todreamr.github.io/index.zh-cn.md"
+    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.md"
   ]
 }
