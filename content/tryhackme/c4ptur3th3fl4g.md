@@ -2,7 +2,7 @@
 date: 2024-06-19
 author: mrashco
 title: c4ptur3th3fl4g
-tags: 
+tags: ["", ""]
 categories: 
 series:
 ---

