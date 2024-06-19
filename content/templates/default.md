@@ -1,4 +1,3 @@
-```md
 ---
 date: {{date}}
 authors: 
@@ -8,4 +7,3 @@ tags: []
 categories: []
 series: []
 ---
-```

@@ -1,7 +1,8 @@
 {
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "assetes'",
+  "attachmentFolderPath": "assets",
   "newFileLocation": "folder",
-  "newFileFolderPath": "content/posts",
-  "promptDelete": false
+  "newFileFolderPath": "content",
+  "promptDelete": false,
+  "livePreview": false
 }

