@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hack Notes</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on Hack Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anonforce</title>
-      <link>//localhost:1313/tryhackme/anonforce/</link>
+      <link>/tryhackme/anonforce/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tryhackme/anonforce/</guid>
+      <guid>/tryhackme/anonforce/</guid>
       <description>Writeup: YouTube // Blog
 rustscan -a $ip, 21:ftp 22:ssh
 ftp $ip, anonymous
@@ -27,21 +27,11 @@ hashcat root.hash rockyou.txt h***** ssh root@$ip</description>
     </item>
     
     <item>
-      <title>Blog Post</title>
-      <link>//localhost:1313/posts/blog-post/</link>
-      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/blog-post/</guid>
-      <description>Heading 1 #Heading 2 #</description>
-      
-    </item>
-    
-    <item>
       <title>Bounty Hacker</title>
-      <link>//localhost:1313/tryhackme/bounty-hacker/</link>
+      <link>/tryhackme/bounty-hacker/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tryhackme/bounty-hacker/</guid>
+      <guid>/tryhackme/bounty-hacker/</guid>
       <description>Writeup: YouTube // Blog
 rustscan -a $ip -p $ports &amp;ndash; -sC -sV
 ftp -A $ip ^
@@ -51,32 +41,13 @@ sudo -l, tar ^</description>
     </item>
     
     <item>
-      <title>Untitled 1</title>
-      <link>//localhost:1313/posts/untitled-1/</link>
+      <title>c4ptur3th3fl4g</title>
+      <link>/tryhackme/c4ptur3th3fl4g/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/untitled-1/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Untitled</title>
-      <link>//localhost:1313/posts/untitled/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/untitled/</guid>
-      <description>Heading 1 #</description>
-      
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>//localhost:1313/posts/welcome/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/welcome/</guid>
-      <description></description>
+      <guid>/tryhackme/c4ptur3th3fl4g/</guid>
+      <description>Video Writeup: YouTube Written Writeup:
+leet binary base32 base64 hex ROT13 ROT47 morse decimal base64 &amp;gt; morse &amp;gt; binary &amp;gt; ROT47 &amp;gt; decimal Audacity &amp;gt; spectrogram view steghide &amp;ndash;extract -sf $file strings $file </description>
       
     </item>
     

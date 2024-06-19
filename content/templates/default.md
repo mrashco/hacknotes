@@ -1,7 +1,6 @@
 ---
 date: {{date}}
-authors: 
-- mrashco
+author: mrashco
 title: {{title}}
 tags: []
 categories: []

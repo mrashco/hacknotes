@@ -1,6 +1,6 @@
 ---
 title: "Hack Notes"
-description: "See what's possible with Blowfish."
+description: "A collection of notes, commands, and links to help w/ hacking and cyber sec"
 
 cascade:
   showEdit: false
@@ -9,5 +9,5 @@ cascade:
 ---
 
 {{< lead >}}
-A collection of notes, commands, & links to help w/ hacking & cybersec. Work in progress, please be patient while it’s updated.
+A collection of notes, commands, and links to help w/ hacking and cyber sec (WIP)
 {{< /lead >}}

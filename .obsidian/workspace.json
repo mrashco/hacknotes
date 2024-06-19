@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0405daf2ed863dfa",
+        "id": "ed79ad2bc75f0637",
         "type": "tabs",
         "children": [
           {
-            "id": "91ca6117d080264f",
+            "id": "37be0482df05b058",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91ca6117d080264f",
+  "active": "37be0482df05b058",
   "lastOpenFiles": [
+    "content/tryhackme/ctfcollectionvol1.md",
+    "content/tryhackme/easy-peasy.md",
+    "content/tryhackme/dav.md",
+    "content/tryhackme/couch.md",
+    "content/tryhackme/content-discovery.md",
+    "content/tryhackme/corridor.md",
+    "content/_index.md",
+    "content/tryhackme/c4ptur3th3fl4g.md",
+    "content/tryhackme/coldbox-easy.md",
+    "public/tryhackme/c4ptur3th3fl4g/index.html",
+    "public/tryhackme/c4ptur3th3fl4g",
+    "content/templates/default.md",
     "README.md",
     "content/tryhackme/Anonforce.md",
     "content/tryhackme/Bounty Hacker.md",
@@ -152,8 +164,6 @@
     "public/writeups/tryhackme/anonforce",
     "public/writeups/tryhackme",
     "content/writeups/tryhackme/anonforce.md",
-    "content/writeups/tryhackme",
-    "public/writeups/page/1/index.html",
     "content/writeups/anonforce.md",
     "adw.md",
     "anonforce.md",
@@ -175,15 +185,6 @@
     "themes/blowfish/exampleSite/content/users/weaxsey.org/index.ja.md",
     "themes/blowfish/exampleSite/content/users/weaxsey.org/index.it.md",
     "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.zh-cn.md",
-    "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.md",
-    "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.ja.md",
-    "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.it.md",
-    "themes/blowfish/exampleSite/content/users/vividscc.com/index.zh-cn.md",
-    "themes/blowfish/exampleSite/content/users/vividscc.com/index.md",
-    "themes/blowfish/exampleSite/content/users/vividscc.com/index.ja.md",
-    "themes/blowfish/exampleSite/content/users/vividscc.com/index.it.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.zh-cn.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.ja.md"
+    "themes/blowfish/exampleSite/content/users/vkmki001.github.io/index.md"
   ]
 }

@@ -2,21 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Hack Notes</title>
-    <link>//localhost:1313/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on Hack Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mrashco</title>
-      <link>//localhost:1313/authors/mrashco/</link>
-      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/authors/mrashco/</guid>
-      <description></description>
-      
-    </item>
-    
+    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

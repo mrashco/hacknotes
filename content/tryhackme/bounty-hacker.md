@@ -1,11 +1,10 @@
 ---
 date: 2024-06-19
-authors:
-  - mrashco
+author: mrashco
 title: Bounty Hacker
 tags: 
 categories: 
-series:
+series: 
 ---
 
 Writeup: [YouTube](https://youtu.be/RIiRB_tqfVk) // Blog
