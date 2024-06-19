@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Categories &middot; Hack Notes</title>
-  <meta name="title" content="Categories &middot; Hack Notes" />
+  <title>Anonforce &middot; Hack Notes</title>
+  <meta name="title" content="Anonforce &middot; Hack Notes" />
   
   <meta name="description" content="My awesome website" />
   
   
   
-  <link rel="canonical" href="//localhost:1313/categories/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="Hack Notes" />
+  <link rel="canonical" href="//localhost:1313/writeups/anonforce/" />
   
   
   
@@ -65,20 +63,66 @@
   
   
   
-  <meta property="og:url" content="//localhost:1313/categories/">
+  <meta property="og:url" content="//localhost:1313/writeups/anonforce/">
   <meta property="og:site_name" content="Hack Notes">
-  <meta property="og:title" content="Categories">
-  <meta property="og:description" content="My awesome website">
+  <meta property="og:title" content="Anonforce">
+  <meta property="og:description" content="Writeup: YouTube // Blog
+rustscan -a $ip, 21:ftp 22:ssh
+ftp $ip, anonymous
+user = m*******
+get user.txt
+cat ~/user.txt get /notread/*
+gpg2john private.asc &gt; private.hash john --wordlist=/rockyou.txt private.hash x****** gpg 🔗 🔗
+gpg -d backup.pgp nano root.hash
+hashcat root.hash rockyou.txt h***** ssh root@$ip">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="writeups">
+    <meta property="article:published_time" content="2024-06-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-19T00:00:00+00:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Categories">
-  <meta name="twitter:description" content="My awesome website">
+  <meta name="twitter:title" content="Anonforce">
+  <meta name="twitter:description" content="Writeup: YouTube // Blog
+rustscan -a $ip, 21:ftp 22:ssh
+ftp $ip, anonymous
+user = m*******
+get user.txt
+cat ~/user.txt get /notread/*
+gpg2john private.asc &gt; private.hash john --wordlist=/rockyou.txt private.hash x****** gpg 🔗 🔗
+gpg -d backup.pgp nano root.hash
+hashcat root.hash rockyou.txt h***** ssh root@$ip">
 
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Writeups",
+    "name": "Anonforce",
+    "headline": "Anonforce",
+    
+    "abstract": "Writeup: YouTube \/\/ Blog\nrustscan -a $ip, 21:ftp 22:ssh\nftp $ip, anonymous\nuser = m*******\nget user.txt\ncat ~\/user.txt get \/notread\/*\ngpg2john private.asc \u0026gt; private.hash john --wordlist=\/rockyou.txt private.hash x****** gpg 🔗 🔗\ngpg -d backup.pgp nano root.hash\nhashcat root.hash rockyou.txt h***** ssh root@$ip",
+    "inLanguage": "en",
+    "url" : "\/\/localhost:1313\/writeups\/anonforce\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-06-19T00:00:00\u002b00:00",
+    "datePublished": "2024-06-19T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-06-19T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "43"
+  }]
+  </script>
+
 
   
   
@@ -130,6 +174,18 @@
   <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">Hack Notes</span>
+
+            <img src="/profile.png" width="540" height="540"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="Hack Notes" />
+
+        </a>
+    </div>
+    
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
@@ -142,50 +198,13 @@
 
             
             
-             
-  <div>
-  <div class="cursor-pointer flex items-center nested-menu">
+            
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <a  class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
-      Writeups
-    </a>
-    <span>
-      
-
-  <span class="relative block icon">
-    <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-
-  </span>
-
-
-    </span>
-  </div>
-  <div class="absolute menuhide">
-    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
-      <div class="flex flex-col space-y-3">
-        
-        <a href="/tryhackme/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-          
-          <p class="text-sm font-sm" title="">
-            TryHackMe
-          </p>
-        </a>
-        
-      </div>
-    </div>
-  </div>
-</div>
+    <p class="text-base font-medium" title="">
+        Blog
+    </p>
+</a>
 
 
 
@@ -323,47 +342,15 @@
 
                     
 
-                     
+                    
   <li class="mt-1">
-    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            Writeups
-        </p>
-        <span>
-            
-
-  <span class="relative block icon">
-    <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-
-  </span>
-
-
-        </span>
-    </a>
-</li>
-
-<li class="mt-1">
-    <a href="/tryhackme/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-sm font-small" title="">
-            TryHackMe
+            Blog
         </p>
     </a>
 </li>
-
-<li class="mb-2"></li>
 
 
 
@@ -389,21 +376,41 @@
       
 
 
- 
+<article>
+  
 
-  <header>
+  <header id="single_header" class="mt-5 max-w-prose">
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Categories</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Anonforce
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
 
 
 
 
 
+  
+  
 
 
 
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
 
 
 
@@ -420,32 +427,137 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
+  <time datetime="2024-06-19 00:00:00 &#43;0000 UTC">19 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>43 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
 </div>
 
 
+
+
+
+
+
     </div>
-  </header>
-  
-  <script>
-    var oid = "views_taxonomy_categories"
-    var oid_likes = "likes_taxonomy_categories"
-  </script>
-  
-  
-  <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
-  
 
-  
-
-  <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
     
-  </section>
+    
+    
+    
+    
 
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
   
-
-
+  <div class="place-self-center">
+    
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
 
       
+
+      
+        
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>Writeup: <a href="https://youtu.be/viY-a3B1ItQ">YouTube</a> // Blog</p>
+<hr>
+<p>rustscan -a $ip, 21:ftp 22:ssh</p>
+<p>ftp $ip, anonymous</p>
+<p>user = m*******</p>
+<p>get user.txt</p>
+<ul>
+<li>cat ~/user.txt</li>
+</ul>
+<p>get /notread/*</p>
+<ul>
+<li><code>gpg2john private.asc &gt; private.hash</code></li>
+<li><code>john --wordlist=/rockyou.txt private.hash</code></li>
+<li>x******</li>
+</ul>
+<p><code>gpg</code> <a href="https://www.reddit.com/r/GnuPG/comments/mibwbv/i_have_an_elg_private_key_how_do_i_use_it_to/">🔗</a> <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">🔗</a></p>
+<ul>
+<li><code>gpg -d backup.pgp</code></li>
+</ul>
+<p>nano root.hash</p>
+<ul>
+<li><code>hashcat root.hash rockyou.txt</code></li>
+<li>h*****</li>
+</ul>
+<p><code>ssh root@$ip</code></p>
+
+        </div>
+        
+        
+
+        
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_writeups\\anonforce.md"
+        var oid_likes = "likes_writeups\\anonforce.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

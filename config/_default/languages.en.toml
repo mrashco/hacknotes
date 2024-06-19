@@ -8,14 +8,14 @@ title = "Hack Notes"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "profile.png"
+  # logo = "profile.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 # [author]
   name = "mrashco"
-#   image = "img/blowfish_logo.png"
+  image = "profile.png"
   headline = "My Hacking Notes"
   bio = "Curious about python, hacking and cyber sec."
   links = [

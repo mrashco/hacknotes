@@ -146,19 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53bb5ea2cb6785aa",
+  "active": "574d987fa23572c8",
   "lastOpenFiles": [
     "content/tryhackme/anonforce.md",
-    "public/tryhackme/page/1/index.html",
-    "public/tryhackme/page/1",
-    "public/tryhackme/anonforce/index.html",
-    "public/tryhackme/page",
-    "public/tryhackme/index.xml",
-    "public/tryhackme/index.html",
-    "public/tryhackme/anonforce",
-    "public/tryhackme",
-    "public/anonforce/index.html",
-    "public/anonforce",
+    "content/tryhackme",
+    "public/writeups/tryhackme/anonforce/index.html",
+    "public/writeups/tryhackme/anonforce",
+    "public/writeups/tryhackme",
+    "content/writeups/tryhackme/anonforce.md",
+    "content/writeups/tryhackme",
+    "public/writeups/page/1/index.html",
+    "public/writeups/page/1",
+    "public/writeups/anonforce/index.html",
+    "public/writeups/page",
+    "public/writeups/index.html",
+    "content/writeups/anonforce.md",
     "adw.md",
     "anonforce.md",
     "content/posts/Untitled 1.md",
@@ -190,8 +192,6 @@
     "themes/blowfish/exampleSite/content/users/v-y-s.com/index.zh-cn.md",
     "themes/blowfish/exampleSite/content/users/v-y-s.com/index.md",
     "themes/blowfish/exampleSite/content/users/v-y-s.com/index.ja.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.it.md",
-    "themes/blowfish/exampleSite/content/users/todreamr.github.io/index.zh-cn.md",
-    "themes/blowfish/exampleSite/content/users/todreamr.github.io/index.md"
+    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.it.md"
   ]
 }
