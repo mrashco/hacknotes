@@ -21,9 +21,9 @@ disableTextInHeader = false
 defaultBackgroundImage = "background.jpg" # used as default for background images 
 # defaultFeaturedImage = "background.jpg" # used as default for featured images in all articles
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
 
 [header]
   layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
@@ -61,7 +61,7 @@ defaultBackgroundImage = "background.jpg" # used as default for background image
   showBreadcrumbs = true
   showDraftLabel = false
   showEdit = true
-  editURL = "https://github.com/mrashco/hacknotes"
+  editURL = "https://github.com/mrashco/hacknotes/tree/main/content"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true

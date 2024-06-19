@@ -5,8 +5,6 @@ title: Anonforce
 tags: ["", ""]
 ---
 
-[YouTube Walkthrough](https://youtu.be/viY-a3B1ItQ)
-
 Enumeration
 - rustscan -a $ip, 21:ftp 22:ssh
 - ftp $ip, anonymous
@@ -27,3 +25,5 @@ Hash
 
 SSH
 - `ssh root@$ip`
+
+{{< youtubeLite id="viY-a3B1ItQ" label="tryhackme ANONFORCE walkthrough writeup" >}}
