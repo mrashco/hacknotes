@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4730ad7fdf041257",
+        "id": "0405daf2ed863dfa",
         "type": "tabs",
         "children": [
           {
-            "id": "53bb5ea2cb6785aa",
+            "id": "91ca6117d080264f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,9 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "574d987fa23572c8",
+  "active": "91ca6117d080264f",
   "lastOpenFiles": [
-    "content/tryhackme/anonforce.md",
+    "README.md",
+    "content/tryhackme/Anonforce.md",
+    "content/tryhackme/Bounty Hacker.md",
+    "public/tryhackme/bounty-hacker/index.html",
+    "public/tryhackme/bounty-hacker",
+    "public/bounty-hacker/index.html",
+    "public/bounty-hacker",
     "content/tryhackme",
     "public/writeups/tryhackme/anonforce/index.html",
     "public/writeups/tryhackme/anonforce",
@@ -156,15 +154,10 @@
     "content/writeups/tryhackme/anonforce.md",
     "content/writeups/tryhackme",
     "public/writeups/page/1/index.html",
-    "public/writeups/page/1",
-    "public/writeups/anonforce/index.html",
-    "public/writeups/page",
-    "public/writeups/index.html",
     "content/writeups/anonforce.md",
     "adw.md",
     "anonforce.md",
     "content/posts/Untitled 1.md",
-    "README.md",
     "content/posts/blog-post.md",
     "content/posts/Untitled.md",
     "public/background.jpg",
@@ -191,7 +184,6 @@
     "themes/blowfish/exampleSite/content/users/vividscc.com/index.it.md",
     "themes/blowfish/exampleSite/content/users/v-y-s.com/index.zh-cn.md",
     "themes/blowfish/exampleSite/content/users/v-y-s.com/index.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.ja.md",
-    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.it.md"
+    "themes/blowfish/exampleSite/content/users/v-y-s.com/index.ja.md"
   ]
 }

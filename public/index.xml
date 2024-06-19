@@ -37,6 +37,20 @@ hashcat root.hash rockyou.txt h***** ssh root@$ip</description>
     </item>
     
     <item>
+      <title>Bounty Hacker</title>
+      <link>//localhost:1313/tryhackme/bounty-hacker/</link>
+      <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tryhackme/bounty-hacker/</guid>
+      <description>Writeup: YouTube // Blog
+rustscan -a $ip -p $ports &amp;ndash; -sC -sV
+ftp -A $ip ^
+hydra -l $user -P l****.txt $ip ssh
+sudo -l, tar ^</description>
+      
+    </item>
+    
+    <item>
       <title>Untitled 1</title>
       <link>//localhost:1313/posts/untitled-1/</link>
       <pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate>
